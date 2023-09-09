@@ -4,6 +4,7 @@ function App() {
   // Generate an array of dummy data for multiple cards
   const dummyData = [
     {
+      id:1,
       name: "John Doe",
       date: "September 7, 2023",
       title: "This is a topic about state Management",
@@ -14,6 +15,7 @@ function App() {
       value: "Some Value 1",
     },
     {
+      id:2,
       name: "Jane Smith",
       date: "September 8, 2023",
       title: "Introduction to React Hooks with Tom",

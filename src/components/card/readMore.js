@@ -1,3 +1,3 @@
-export default function ReadMore(){
-    return <p className={"text-blue-600 font-medium items-center cursor-pointer"}>Read More</p>
+export default function ReadMore({openModal}){
+    return <p onClick={openModal} className={"text-blue-600 text-xs font-medium items-center cursor-pointer"}>Add Comment</p>
 }
